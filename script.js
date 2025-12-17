@@ -232,7 +232,6 @@ function getFilteredAndSortedTasks() {
         }
     }
 
-    // Ordenar
     const sortType = sortFilter.value;
     if (sortType === 'fecha-asc') {
         filtered.sort(function(a, b) {
